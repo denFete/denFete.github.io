@@ -55,3 +55,27 @@ p {
 footer.page-footer {
   margin: 0;
 }
+.cardimage{
+  height: 200px;
+}
+.avatar{
+  width: 250px;
+    border:5px solid #fff;
+    border-radius: 500px;
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    -webkit-box-shadow: rgba(0,0,0,.2) 0 2px 4px;
+    -moz-box-shadow: rgba(0,0,0,.2) 0 2px 4px;
+    box-shadow: rgba(0,0,0,.2) 0 2px 4px;
+}
+.avatarBorder{
+    border:5px solid #fff;
+    border-radius: 200px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 500px;
+     -webkit-box-shadow: rgba(0,0,0,.2) 0 2px 4px;
+    -moz-box-shadow: rgba(0,0,0,.2) 0 2px 4px;
+    box-shadow: rgba(0,0,0,.2) 0 2px 4px;
+    margin-bottom: 180px;
+}
+
