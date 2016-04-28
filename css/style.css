@@ -90,7 +90,7 @@ footer.page-footer {
     -webkit-backface-visibility: hidden;
 }
 .card-image:hover img {
-    opacity: 0.75;
+    opacity: 0.5;
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
 }
@@ -100,6 +100,7 @@ footer.page-footer {
 }
 .chip{
   margin-left: 5px;
+  margin-top: 5px;
 }
 .card .card-reveal {
     height: 101%;
