@@ -29,21 +29,7 @@ p {
     width: 100%;
   }
 
-@media only screen and (max-width : 992px) {
-  .parallax-container .section {
-    position: absolute;
-    top: 40%;
-  }
-  #index-banner .section {
-    top: 10%;
-  }
-}
 
-@media only screen and (max-width : 600px) {
-  #index-banner .section {
-    top: 0;
-  }
-}
 
 .icon-block {
   padding: 0 15px;
@@ -98,7 +84,7 @@ div#welcome-txt-container {
 }
 h2#welcome-text {
     text-align: center;
-    margin-left: 250px;
+    margin-left: 220px;
     font-weight: 100;
     font-size: 6.5em;
 }
@@ -106,3 +92,39 @@ h2#welcome-text {
     font-size: 13px;
   
 }
+
+@media only screen and (max-width: 1400px) {
+    .projectRow > .l4{
+      width: 50% !important;
+    }
+}
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+    .projectRow > .l4{
+      width: 100% !important;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .iconRow > .m4{
+      width: 100% !important;
+    }
+}
+
+
